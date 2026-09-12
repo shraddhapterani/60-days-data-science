@@ -1,0 +1,6 @@
+Feature,Importance
+transaction_frequency,0.28300195170136694
+transaction_amount,0.27481020142281165
+failed_attempts,0.2308328794846017
+international,0.19160774613093853
+account_age_days,0.01974722126028111
