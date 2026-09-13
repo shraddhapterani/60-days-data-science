@@ -1,0 +1,6 @@
+Feature,Importance
+international,0.4238297
+failed_attempts,0.26465264
+transaction_frequency,0.14260782
+transaction_amount,0.13108242
+account_age_days,0.037827417
