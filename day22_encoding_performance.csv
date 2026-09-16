@@ -1,0 +1,3 @@
+Encoding Method,Accuracy
+Label Encoding,0.95
+One-Hot Encoding,0.95
