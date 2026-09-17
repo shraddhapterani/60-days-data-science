@@ -1,0 +1,2 @@
+Model,Features Before Selection,Features After Selection,Accuracy Before,Accuracy After
+Random Forest,5,2,1.0,1.0
