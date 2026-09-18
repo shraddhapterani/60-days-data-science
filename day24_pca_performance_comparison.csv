@@ -1,0 +1,3 @@
+Model,Feature Representation,Number of Features,Accuracy
+Random Forest,Original Features,5,1.0
+Random Forest,PCA Components,2,0.65
