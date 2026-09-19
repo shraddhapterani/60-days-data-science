@@ -1,0 +1,3 @@
+Validation Method,Mean Accuracy,Standard Deviation
+Train-Test Split,1.0,0.0
+5-Fold Cross-Validation,0.9800000000000001,0.024494897427831803
