@@ -1,0 +1,2 @@
+n_estimators,max_depth,Best CV Accuracy
+50,3,0.9800000000000001
