@@ -1,0 +1,6 @@
+Training Samples,Training Accuracy,Validation Accuracy
+8,1.0,0.65
+26,1.0,0.96
+44,1.0,0.97
+62,1.0,0.99
+80,1.0,1.0
