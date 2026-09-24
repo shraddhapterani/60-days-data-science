@@ -1,0 +1,7 @@
+Cluster,Segment,Customers,Avg_Age,Avg_Income,Avg_Purchase,Avg_Savings,Avg_Credit_Score
+0,Older Low-Spending,14,50.86,49435.71,1593.64,22480.0,382.86
+1,Young Moderate-Spending,18,23.72,64498.72,2926.61,20314.83,445.0
+2,Young Strong-Credit,19,32.42,49662.26,2616.16,15565.26,741.05
+3,High-Income High-Spending,11,46.91,79434.0,3592.82,10442.82,473.45
+4,High-Savings High-Spending,17,35.71,43442.35,3719.82,39421.41,650.76
+5,High-Income High-Savings,21,43.48,84902.62,2373.14,32115.43,635.95
