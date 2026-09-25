@@ -1,0 +1,7 @@
+Cluster,Customers,Avg_Age,Avg_Income,Avg_Purchase,Avg_Savings,Avg_Credit_Score,Persona,Customer_Percentage,Purchase_Rate_Pct
+0,14,50.86,49435.71,1593.64,22480.0,382.86,Mature Value-Conscious Customers,14.0,21.43
+1,18,23.72,64498.72,2926.61,20314.83,445.0,Young Emerging Spenders,18.0,94.44
+2,19,32.42,49662.26,2616.16,15565.26,741.05,Credit-Strong Customers,19.0,63.16
+3,11,46.91,79434.0,3592.82,10442.82,473.45,Affluent Active Spenders,11.0,100.0
+4,17,35.71,43442.35,3719.82,39421.41,650.76,High-Savings Active Buyers,17.0,94.12
+5,21,43.48,84902.62,2373.14,32115.43,635.95,Affluent Savers,21.0,57.14
