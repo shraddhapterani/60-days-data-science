@@ -1,0 +1,9 @@
+Customer_ID,Transaction_Amount,Transactions_Per_Day,Account_Age_Days,Failed_Transactions,Possible_Risk
+C001,50000.0,25,10,8,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C002,45000.0,30,5,10,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C003,60000.0,40,15,12,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C004,35000.0,20,2,9,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C005,55000.0,35,8,15,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C006,40000.0,28,1,11,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C007,70000.0,50,20,18,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
+C008,48000.0,32,3,14,"Unusually High Spending, Abnormally High Transaction Frequency, New Account Risk, Repeated Failed Transactions"
