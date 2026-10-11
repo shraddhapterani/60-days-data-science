@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oVXuQI5BbARr8tSKxExE">
+    <mxGraphModel dx="1092" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bTyGvQwlILg8E72kVnDm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Customer Intelligence Platform — System Architecture" vertex="1">
+          <mxGeometry height="110" width="340" x="520" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;2. Data Processing&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;•&amp;nbsp; Cleaning&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•&amp;nbsp; Validation&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;• Feature Engineering&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="200" x="580" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;4. Business Intelligence&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•&amp;nbsp; &amp;nbsp;KPIs&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;• Recommendations&amp;nbsp;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;• Reports&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="200" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;1. Data Source&lt;/b&gt;&lt;br/&gt;&lt;code&gt;Superstore Sales CSV&lt;/code&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="580" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span&gt;&lt;b&gt;5. User Interface&lt;/b&gt;&lt;br&gt;&lt;code&gt;&lt;b&gt;•Streamlit Dashboard&amp;nbsp;&lt;/b&gt;&lt;/code&gt;&lt;/span&gt;&lt;div&gt;&lt;code&gt;&lt;b&gt;• Visualizations&lt;/b&gt;&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="580" y="457" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;br&gt;&lt;b&gt;&lt;span&gt;3. &lt;/span&gt;&lt;span&gt;&lt;span&gt;Analytics &lt;/span&gt;&lt;span&gt;Engine&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Customer &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Segmentation&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;code&gt;&lt;span&gt;• &lt;/span&gt;&lt;span&gt;Risk &lt;/span&gt;&lt;span&gt;Analysis&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Forecasting&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="200" x="580" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="679.5" y="120" as="sourcePoint" />
+            <mxPoint x="679.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-14" edge="1" parent="1" source="bTyGvQwlILg8E72kVnDm-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bTyGvQwlILg8E72kVnDm-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="230" as="sourcePoint" />
+            <mxPoint x="680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-16" edge="1" parent="1" source="bTyGvQwlILg8E72kVnDm-8" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bTyGvQwlILg8E72kVnDm-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="340" as="sourcePoint" />
+            <mxPoint x="680" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bTyGvQwlILg8E72kVnDm-17" edge="1" parent="1" source="bTyGvQwlILg8E72kVnDm-5" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bTyGvQwlILg8E72kVnDm-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="430" as="sourcePoint" />
+            <mxPoint x="680" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
