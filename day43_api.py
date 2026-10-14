@@ -7,58 +7,29 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-
-# --------------------------------------------------
-# 1. Application paths
-# --------------------------------------------------
-
-BASE_DIR = Path(__file__).resolve().parent
-
-MODEL_PATH = BASE_DIR / "day43_customer_risk_model.pkl"
-LOG_PATH = BASE_DIR / "day46_monitoring.log"
-
-
-# --------------------------------------------------
-# 2. Logging configuration
-# --------------------------------------------------
-
+# Save application logs in a file
 logging.basicConfig(
-    filename=str(LOG_PATH),
+    filename="day46_monitoring.log",
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     force=True
 )
-
 logger = logging.getLogger(__name__)
-
-
-# --------------------------------------------------
-# 3. Create FastAPI application
-# --------------------------------------------------
 
 app = FastAPI(
     title="Customer Risk Prediction API",
     description="Monitored customer risk prediction API",
-    version="2.1"
+    version="2.0"
 )
 
-
-# --------------------------------------------------
-# 4. Load machine learning model safely
-# --------------------------------------------------
-
+# Load the model safely
 try:
-    model = joblib.load(MODEL_PATH)
-    logger.info("Model loaded successfully from %s", MODEL_PATH)
-
+    model = joblib.load("day43_customer_risk_model.pkl")
+    logger.info("Model loaded successfully")
 except Exception:
     model = None
-    logger.exception("Model loading failed from %s", MODEL_PATH)
+    logger.exception("Model loading failed")
 
-
-# --------------------------------------------------
-# 5. Input validation
-# --------------------------------------------------
 
 class CustomerData(BaseModel):
     Recency_Days: float = Field(ge=0)
@@ -66,20 +37,10 @@ class CustomerData(BaseModel):
     Estimated_CLV: float = Field(ge=0)
 
 
-# --------------------------------------------------
-# 6. Home endpoint
-# --------------------------------------------------
-
 @app.get("/")
 def home():
-    return {
-        "message": "Customer Risk Prediction API is running"
-    }
+    return {"message": "Customer Risk Prediction API is running"}
 
-
-# --------------------------------------------------
-# 7. Health-check endpoint
-# --------------------------------------------------
 
 @app.get("/health")
 def health():
@@ -88,25 +49,15 @@ def health():
             status_code=503,
             detail="Prediction model is unavailable"
         )
+    return {"status": "healthy", "model_loaded": True}
 
-    return {
-        "status": "healthy",
-        "model_loaded": True
-    }
-
-
-# --------------------------------------------------
-# 8. Customer risk prediction endpoint
-# --------------------------------------------------
 
 @app.post("/predict-risk")
 def predict_risk(customer: CustomerData):
-
     logger.info("Prediction request received")
 
     if model is None:
         logger.error("Prediction rejected: model unavailable")
-
         raise HTTPException(
             status_code=503,
             detail="Prediction service is unavailable"
@@ -121,18 +72,11 @@ def predict_risk(customer: CustomerData):
 
         prediction = str(model.predict(input_data)[0])
 
-        logger.info(
-            "Prediction completed: risk_level=%s",
-            prediction
-        )
-
-        return {
-            "Risk_Level": prediction
-        }
+        logger.info("Prediction completed: risk_level=%s", prediction)
+        return {"Risk_Level": prediction}
 
     except Exception:
         logger.exception("Prediction failed")
-
         raise HTTPException(
             status_code=500,
             detail="Prediction failed. Please try again later."
