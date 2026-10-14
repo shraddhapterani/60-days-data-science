@@ -1,0 +1,3 @@
+Model,Test Accuracy,Test Macro F1
+Baseline Logistic Regression,0.9245283018867925,0.924473493100944
+Tuned Logistic Regression,0.9748427672955975,0.9747173394972138
