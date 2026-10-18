@@ -1,0 +1,4 @@
+Risk_Level,Customers,Total_Sales,Average_Sales,Total_Estimated_CLV,Average_CLV,Average_Recency_Days,Average_Orders,Sales_Share_Percent,CLV_Share_Percent
+High Risk,264,598837.94,2268.33,800909.84,3033.75,345.04,4.98,26.48,31.33
+Low Risk,265,895710.34,3380.04,931320.4,3514.42,22.74,7.53,39.61,36.43
+Medium Risk,264,766988.5,2905.26,824076.73,3121.5,77.56,6.1,33.91,32.24
